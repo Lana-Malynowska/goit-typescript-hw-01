@@ -1,4 +1,4 @@
-interface Page {
+interface IPage {
   title: string;
   likes: number;
   accounts: string[];
@@ -9,7 +9,7 @@ interface Page {
   };
 }
 
-const page1: Page = {
+const page1: IPage = {
   title: "The awesome page",
   likes: 100,
   accounts: ["Max", "Anton", "Nikita"],
@@ -20,7 +20,7 @@ const page1: Page = {
   },
 };
 
-const page2: Page = {
+const page2: IPage = {
   title: "Python or Js",
   likes: 5,
   accounts: ["Alex"],
